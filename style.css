@@ -1,0 +1,104 @@
+.container {
+	border: 2px solid;
+}
+.head {
+	text-align: center;
+	margin: 40px 0;
+}
+.row {
+	padding: 10px
+}
+.grams{
+	font: 1.6em bold;
+	color: limegreen;
+	text-align: right;
+}
+h1 {
+	text-align: right;
+}
+/* element rangeUI */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 11.1px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 13.8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3.9px #000000, 0px 0px 0px #0d0d0d;
+  background: rgba(48, 112, 169, 0.49);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -11.3px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(118, 170, 216, 0.49);
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 13.8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3.9px #000000, 0px 0px 0px #0d0d0d;
+  background: rgba(48, 112, 169, 0.49);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 13.8px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(22, 51, 78, 0.49);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 0px 0px 3.9px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(48, 112, 169, 0.49);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 0px 0px 3.9px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 13.8px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(48, 112, 169, 0.49);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(118, 170, 216, 0.49);
+}
